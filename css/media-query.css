@@ -1,0 +1,64 @@
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+
+.blog-card-footer{
+    flex-wrap: wrap;
+    
+}
+
+.blog-card-footer .col-8,
+.blog-card-footer .col-4{
+    justify-content: center;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 768px){
+    #about, 
+    #portfolio, 
+    #contact,
+    #blog,
+    #about .container{
+        padding: 1rem;
+    }
+    #about .about-list{
+        padding-left:  0;
+        margin-top: 1rem;
+    }
+
+    #about .row .col-lg-6{
+        margin-top: 2rem;
+    }
+    #carousel{
+        padding-inline:  0;
+    }
+    #carousel .carousel-inner{
+        width: 75% !important;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .dropdown-item.dropdown{
+        position: relative;
+    }
+    
+    .dropdown-menu.dropdwon-submenu.show{
+        position: absolute;
+        width: 90%;
+        left: 20;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
